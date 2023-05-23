@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2478839807986951621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2478839807986951618}
+  m_Layer: 0
+  m_Name: Balisa_009
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2478839807986951618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478839807986951621}
+  m_LocalRotation: {x: 0.0005300699, y: -0.85742676, z: -0.0004204352, w: 0.5146055}
+  m_LocalPosition: {x: 1652.839, y: -0.131, z: -1386.273}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2786844784576318822}
+  - {fileID: 6149168213799088695}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.01, y: -118.058, z: -0.077}
+--- !u!1001 &2478839809674085959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2478839807986951618}
+    m_Modifications:
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.716
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8969887232552267466, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+      propertyPath: m_Name
+      value: Balisa_26
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+--- !u!4 &6149168213799088695 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8588540708701779056, guid: 4fc4aab391a4c154d81e8de73a2deb1e, type: 3}
+  m_PrefabInstance: {fileID: 2478839809674085959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2478839809706941831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2478839807986951618}
+    m_Modifications:
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117340827409959515, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+      propertyPath: m_Name
+      value: Balisa_25
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+--- !u!4 &2786844784576318822 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 345166647096479969, guid: fe1c79fc8ad90374ea39c6cd7b7e1748, type: 3}
+  m_PrefabInstance: {fileID: 2478839809706941831}
+  m_PrefabAsset: {fileID: 0}

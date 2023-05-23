@@ -1,0 +1,561 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.45f1 (660cd1701bd5) revision 6687953'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 32749 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/HDA
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61387
+Successfully changed project path to: E:/HDA
+E:/HDA
+Using Asset Import Pipeline V2.
+Player connection [12292] Host "[IP] 192.168.8.100 [Port] 1073959392 [Flags] 2 [Guid] 1624443813 [EditorId] 1624443813 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HPJ9964) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12292] Host "[IP] 192.168.8.100 [Port] 1073959392 [Flags] 2 [Guid] 1624443813 [EditorId] 1624443813 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HPJ9964) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 109.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.45f1 (660cd1701bd5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/HDA/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K420 (ID=0xff3)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   30.0.14.7430
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003123 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002870 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1832ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1466ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (532ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (585ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (449ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1463 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1907.
+Total: 3.337100 ms (FindLiveObjects: 0.133400 ms CreateObjectMapping: 0.059100 ms MarkObjects: 3.003200 ms  DeleteObjects: 0.139700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/HDA/00.hda
+  artifactKey: Guid(2e73b0851ecbd5a4782381acf718357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDA/00.hda using Guid(2e73b0851ecbd5a4782381acf718357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f61a7badabe98261fe63bbee5ef036') in 0.059911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.768430 seconds.
+  path: Assets/HDA/Tutorial_fence_02.hda
+  artifactKey: Guid(b305589ed8e482541bd8ad74f38072c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDA/Tutorial_fence_02.hda using Guid(b305589ed8e482541bd8ad74f38072c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135b249e40b416dd956d186153bf88dc') in 0.003864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4845.079825 seconds.
+  path: Assets/HDA/00.hda
+  artifactKey: Guid(2e73b0851ecbd5a4782381acf718357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDA/00.hda using Guid(2e73b0851ecbd5a4782381acf718357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32076a90cf58284a972a7ae02747c74') in 0.002786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3361.503454 seconds.
+  path: Assets/HDA/00.hda
+  artifactKey: Guid(2e73b0851ecbd5a4782381acf718357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDA/00.hda using Guid(2e73b0851ecbd5a4782381acf718357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681cd6cae4595ea8ec0c586735c60c4f') in 0.005002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1788.313589 seconds.
+  path: Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Materials/AQUAS_Lite_Water.mat
+  artifactKey: Guid(f59ea535bb715ca4da8afac832fd36eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Materials/AQUAS_Lite_Water.mat using Guid(f59ea535bb715ca4da8afac832fd36eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4057a9a05cfaeb1a376333e64f1ee10') in 2.069030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/River_05.fbx
+  artifactKey: Guid(91ee8eaebf70ce2498119d404c7bea80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/River_05.fbx using Guid(91ee8eaebf70ce2498119d404c7bea80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a956b34ed19dd7cfb34ec3c86bffae') in 0.414805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Ulkan_Umbella/Materials/M_Sand.mat
+  artifactKey: Guid(366d1ddbcee080046a4e403899a9b1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Materials/M_Sand.mat using Guid(366d1ddbcee080046a4e403899a9b1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9902c229282e8b80054d0515be5a02') in 0.121607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/River_07.fbx
+  artifactKey: Guid(9d0715ff59ada4840b1cb364942e1b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/River_07.fbx using Guid(9d0715ff59ada4840b1cb364942e1b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cf29b3f390c879be1d35725ff0e069') in 0.357545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/Terrain/Materials/hda_terrain2_output1_output1_0-Material.mat
+  artifactKey: Guid(3640d3bc5b98b1745afb74533d6b3757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/Terrain/Materials/hda_terrain2_output1_output1_0-Material.mat using Guid(3640d3bc5b98b1745afb74533d6b3757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa30c831254632446385a8bd8a10d83') in 0.604356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Models/Materials/WaterSimpleDaylight.mat
+  artifactKey: Guid(cb6f3344386d8b44ea69a4d8c453389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Models/Materials/WaterSimpleDaylight.mat using Guid(cb6f3344386d8b44ea69a4d8c453389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77234cf6bc018edb302e333427aca4f1') in 0.236982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000864 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/SM_Chunk_08.fbx
+  artifactKey: Guid(abc1464a081e6c04a9db1751ee4e9436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/SM_Chunk_08.fbx using Guid(abc1464a081e6c04a9db1751ee4e9436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24eebeef3e8b9d659a641a484e4a38d2') in 0.231361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Ulkan_Umbella/Materials/M_Zabor.mat
+  artifactKey: Guid(5ebfa16f9f9c0154cb555c6b0a9bdfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Materials/M_Zabor.mat using Guid(5ebfa16f9f9c0154cb555c6b0a9bdfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4a6de6e5340037ce933618b511517c') in 0.147145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/Coast_17.fbx
+  artifactKey: Guid(6601093795486b2499286ee67cf862ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/Coast_17.fbx using Guid(6601093795486b2499286ee67cf862ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb50f795cc9a02e89f36e2aea7428c25') in 0.180269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Materials/M_Svet.mat
+  artifactKey: Guid(5c8282ccdfa21054aad44174f65763a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Svet.mat using Guid(5c8282ccdfa21054aad44174f65763a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2307b3d58c960631767b1d3225473114') in 0.172194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/River_17.fbx
+  artifactKey: Guid(c3285f51370ee4f409d1d2598d52ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/River_17.fbx using Guid(c3285f51370ee4f409d1d2598d52ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b9d969186307279b2a8a0ba18c8123') in 0.354136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Materials/M_Svet_decal.mat
+  artifactKey: Guid(28c4539f58daa6f44982f8bd0d4a6648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Svet_decal.mat using Guid(28c4539f58daa6f44982f8bd0d4a6648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79d7b50c5d3844ea9426e4286f44119') in 0.037761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/SM_Chunk_06.fbx
+  artifactKey: Guid(0e3774ca3b96e2f45b7bef2425e0bebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/SM_Chunk_06.fbx using Guid(0e3774ca3b96e2f45b7bef2425e0bebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0f812a24c56e92c0c63e3cf495ecc9') in 0.264941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/River_06.fbx
+  artifactKey: Guid(b095f39abfb421143976a71a92c81102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/River_06.fbx using Guid(b095f39abfb421143976a71a92c81102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520f1de7f57fade38d6fa14cc5be9921') in 0.163670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/SM_Chunk_07.fbx
+  artifactKey: Guid(69a119233e69d6d4f8bc193c34d55fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/SM_Chunk_07.fbx using Guid(69a119233e69d6d4f8bc193c34d55fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7166e725230348471aed621f3af666ec') in 0.110745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Materials/M_Svet_alfa.mat
+  artifactKey: Guid(162ce86a2f2cc6c4aaed77d3aca9145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Svet_alfa.mat using Guid(162ce86a2f2cc6c4aaed77d3aca9145b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fd36804b9a7475b4decf240169c408') in 0.295744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/FBX/New Material.mat
+  artifactKey: Guid(c54d21f015231344b971031b86c65e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/New Material.mat using Guid(c54d21f015231344b971031b86c65e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302a9e1be500f89737e5c2f5c6bcabab') in 0.083486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/FBX/Balisa.fbx
+  artifactKey: Guid(a42b25c34e4f50247a71db168c38e767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Balisa.fbx using Guid(a42b25c34e4f50247a71db168c38e767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7ba9a4aae9ee805a0c9314302d4bbd') in 0.466095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Materials/M_Balisa.mat
+  artifactKey: Guid(4baa1aea049298749988de86ddbbd160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_Balisa.mat using Guid(4baa1aea049298749988de86ddbbd160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62ca56b67bdabe63502c83b92091167') in 0.482251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/FBX/Svet.fbx
+  artifactKey: Guid(65433fd5387657d49be6b25590fc037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Svet.fbx using Guid(65433fd5387657d49be6b25590fc037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce156ed1c9b06c37b90655d35904d6f') in 3.382046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Ulkan_Umbella/Materials/M_Terrain.mat
+  artifactKey: Guid(3fec29800d7b69a41850cefdb135ea80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Materials/M_Terrain.mat using Guid(3fec29800d7b69a41850cefdb135ea80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa9225533a89317fc3348199fc20a72') in 0.530265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Materials/AQUAS_Lite_Water_Backface.mat
+  artifactKey: Guid(6363f60797ab0fb49b1ff852b0978304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Materials/AQUAS_Lite_Water_Backface.mat using Guid(6363f60797ab0fb49b1ff852b0978304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0024a8316bd0054e7d16207baa37095') in 0.382235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/HoudiniEngineAssetCache/Working/00 2/Materials/matnet1_wood.mat
+  artifactKey: Guid(c9e80ba529370444685b0613a9ebef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Working/00 2/Materials/matnet1_wood.mat using Guid(c9e80ba529370444685b0613a9ebef2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8520ba9f449dd62581ee7bc35be303a9') in 0.073255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.713163 seconds.
+  path: Assets/Ulkan_Umbella/Textures/T_Sand.jpg
+  artifactKey: Guid(64a24710f1e60d2479aab256dfe48cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Textures/T_Sand.jpg using Guid(64a24710f1e60d2479aab256dfe48cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba882c2e794091e23b2aa1e9b4b0eefa') in 0.255124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.798213 seconds.
+  path: Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Textures/Waves_HiRes.png
+  artifactKey: Guid(0d05b23ea2d999b47825c6c522e25adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Textures/Waves_HiRes.png using Guid(0d05b23ea2d999b47825c6c522e25adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85966f725db8473f7920e2a623e95f2') in 0.165478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Textures/AQUAS_Foam.jpg
+  artifactKey: Guid(6cb123095ca4b4e4680773312ba1c076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Textures/AQUAS_Foam.jpg using Guid(6cb123095ca4b4e4680773312ba1c076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9198342ce543b902d5c17352fbec9d4d') in 0.019589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.191675 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/Coast_06.fbx
+  artifactKey: Guid(8bc6f2afac0797949adc964aa7acdd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/Coast_06.fbx using Guid(8bc6f2afac0797949adc964aa7acdd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fe587cb460b0825cb534910fa4ae8b') in 0.132823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/Coast_08.fbx
+  artifactKey: Guid(d0725336425d1324f844e005561e4146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/Coast_08.fbx using Guid(d0725336425d1324f844e005561e4146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6911453e6fe94075d00b3cda4bd17a0b') in 0.054659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/SM_Chunk_05.fbx
+  artifactKey: Guid(1f5d0c7aaf8bec945b95b3c24e4668a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/SM_Chunk_05.fbx using Guid(1f5d0c7aaf8bec945b95b3c24e4668a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fee9c1503ac32fd9765c312fce3a1ab') in 0.459487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/SM_Chunk_17.fbx
+  artifactKey: Guid(b4d5d9f195266a742b1ef84189de30a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/SM_Chunk_17.fbx using Guid(b4d5d9f195266a742b1ef84189de30a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1aa3c644c1a76ce3cc4eda6ee2592b') in 0.186553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Models/WaterPlane.fbx
+  artifactKey: Guid(c9c3797c5d4107747a25bfa19fd7ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Materials/WaterShader/AQUAS-Lite/Models/WaterPlane.fbx using Guid(c9c3797c5d4107747a25bfa19fd7ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6ee3d189c958f5c1c83f4819cecaf3') in 0.332866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Ulkan_Umbella/Static_Mesh/Terrain/Coast_07.fbx
+  artifactKey: Guid(3e750b3a13b9df748b563587f3c13af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulkan_Umbella/Static_Mesh/Terrain/Coast_07.fbx using Guid(3e750b3a13b9df748b563587f3c13af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b19de24745ef786cc850e5dafecb9be') in 0.090953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.258593 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_01.prefab
+  artifactKey: Guid(d30a5f817c11c694da62983a8349d137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_01.prefab using Guid(d30a5f817c11c694da62983a8349d137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f5900c2f8e2b0a45a7d87a7279c94e') in 0.199520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_012.prefab
+  artifactKey: Guid(be908e13f23b92748a623542fcc0d048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_012.prefab using Guid(be908e13f23b92748a623542fcc0d048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd882a5b884815a738648bbb541ad15a3') in 0.080743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_004.prefab
+  artifactKey: Guid(d16f041b838771748beb0347d2500465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_004.prefab using Guid(d16f041b838771748beb0347d2500465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c4831d5b3137b047dced9fcc398dee') in 0.047924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_12.prefab
+  artifactKey: Guid(22dce7053df03ac4eb9f285a1b570ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_12.prefab using Guid(22dce7053df03ac4eb9f285a1b570ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9da956d28ab466476d2a67fae24651') in 0.044417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_007.prefab
+  artifactKey: Guid(b39bbba0ddbf77040afbcf6d517fa67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_007.prefab using Guid(b39bbba0ddbf77040afbcf6d517fa67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bf9b11a4a67fd47a444516571537e5') in 0.052900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_06.prefab
+  artifactKey: Guid(145bcafa4cb08e141b63a966fb175df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_06.prefab using Guid(145bcafa4cb08e141b63a966fb175df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ffaa004d0786d0ccadd5d6e0bdd1c4') in 0.048773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_009.prefab
+  artifactKey: Guid(55b9001b05eead143b2137e9e6696826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_009.prefab using Guid(55b9001b05eead143b2137e9e6696826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc97c40f97c0f3ccaa59b39893255565') in 0.045352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_16.prefab
+  artifactKey: Guid(9e836aab823fdeb4f82ff2b4be80b99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_16.prefab using Guid(9e836aab823fdeb4f82ff2b4be80b99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23b2199ac9b5d24f71f54831e3546fc') in 0.073420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_15.prefab
+  artifactKey: Guid(cbd108e2b989db94fb6a6073d55b5510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_15.prefab using Guid(cbd108e2b989db94fb6a6073d55b5510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e82ede4074044a9bc0216dc63218b8d') in 0.045091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_13.prefab
+  artifactKey: Guid(627d60b4f10f7c242801353aa229fd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_13.prefab using Guid(627d60b4f10f7c242801353aa229fd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179d0b0a4f8fa454e3e2645901179f40') in 0.035219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_21.prefab
+  artifactKey: Guid(5655db2d12060e64ca688088e631fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_21.prefab using Guid(5655db2d12060e64ca688088e631fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe198d80c8c992af01387d8066d7869') in 0.184156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_003.prefab
+  artifactKey: Guid(0a639398fa36ec54cb5141dab30f9851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_003.prefab using Guid(0a639398fa36ec54cb5141dab30f9851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8c52804e940bc263ae2bb25058b18d') in 0.127753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_014.prefab
+  artifactKey: Guid(d327a0d4ad2bce848b080c2450979448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_014.prefab using Guid(d327a0d4ad2bce848b080c2450979448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8e6d945a0b0cfd6257b27d01458e26') in 0.063914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_011.prefab
+  artifactKey: Guid(7a9bf981e58fb6647915b6d684a5ecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_011.prefab using Guid(7a9bf981e58fb6647915b6d684a5ecb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0757718807f983fc692f4e4ae5f19d5f') in 0.044753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_07.prefab
+  artifactKey: Guid(6857b7ef5b0238141b9c48b1bec59a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_07.prefab using Guid(6857b7ef5b0238141b9c48b1bec59a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c642a85502b5af49f60fcbc200feb74e') in 0.064088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028264 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_19.prefab
+  artifactKey: Guid(044d9deb251d6624d9520cb9b21c42ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_19.prefab using Guid(044d9deb251d6624d9520cb9b21c42ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ce0cf19f81ff8a6dc3482a130886fb') in 0.051593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_11.prefab
+  artifactKey: Guid(3c025a19f58e2aa4fbd02f206a9f4f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_11.prefab using Guid(3c025a19f58e2aa4fbd02f206a9f4f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0510c75589ffd25d8d2bd86ed5fcd4c2') in 0.042246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_22.prefab
+  artifactKey: Guid(89733cdb21170eb43b819146711687e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_22.prefab using Guid(89733cdb21170eb43b819146711687e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e798fc9ff94e70204f6f37c0c36d532') in 0.097682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_002.prefab
+  artifactKey: Guid(7129de3698fba86459701f681ff3d5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_002.prefab using Guid(7129de3698fba86459701f681ff3d5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6ef1fbcedb118410884362313810b9') in 0.107968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_03.prefab
+  artifactKey: Guid(5bca42b94b484534fac1b510551fac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_03.prefab using Guid(5bca42b94b484534fac1b510551fac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9433580a04f4166dafacb00973c4cfd7') in 0.046524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_008.prefab
+  artifactKey: Guid(8c5daf8d74831604195aa1174be6b50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_008.prefab using Guid(8c5daf8d74831604195aa1174be6b50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce71e8ffff00deee070e5ef0744450d8') in 0.194446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_09.prefab
+  artifactKey: Guid(a0c8c035fd40897459c68c01db5fa42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_09.prefab using Guid(a0c8c035fd40897459c68c01db5fa42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04502775cb81d14496a5af112fb54f39') in 0.071674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_17.prefab
+  artifactKey: Guid(fe1c79fc8ad90374ea39c6cd7b7e1748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_17.prefab using Guid(fe1c79fc8ad90374ea39c6cd7b7e1748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0649faa03e03e0e34c1df4b49056cf') in 0.023346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_013.prefab
+  artifactKey: Guid(f0053d1b2b4d62f4180f882210b88dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_013.prefab using Guid(f0053d1b2b4d62f4180f882210b88dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d2645edf9a2e7485c1501f15ec63de') in 0.040159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000948 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_005.prefab
+  artifactKey: Guid(fb9ec74987cbec249a0a788cce60af19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_005.prefab using Guid(fb9ec74987cbec249a0a788cce60af19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3a34f38d3b5e469b8c2b33e04982e2') in 0.084903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_02.prefab
+  artifactKey: Guid(90650fa46a6698341a0d2cde6ebe29cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_02.prefab using Guid(90650fa46a6698341a0d2cde6ebe29cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fe554e6e67373e0891ee7c486b0c9b') in 0.230589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_010.prefab
+  artifactKey: Guid(fc12cbf8d8314d245a050d926374c07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_010.prefab using Guid(fc12cbf8d8314d245a050d926374c07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe884ddcb8af309d882f218437cc8778') in 0.030317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_20.prefab
+  artifactKey: Guid(708535f7a1c57dd419526b0b033a4e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_20.prefab using Guid(708535f7a1c57dd419526b0b033a4e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dfff13e2ec4d3a89b8906bb352e460') in 0.083597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_08.prefab
+  artifactKey: Guid(7adc1add98bb63d4bad730e983461ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_08.prefab using Guid(7adc1add98bb63d4bad730e983461ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcde77f91df1191da338a4804e86f9e') in 0.056987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_14.prefab
+  artifactKey: Guid(419d8af06721ce547b44dafeb5ca883f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_14.prefab using Guid(419d8af06721ce547b44dafeb5ca883f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18eaffc6c311c0d3104924fbcd1304b') in 0.094046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004718 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_006.prefab
+  artifactKey: Guid(ecbcd7ccfcfccf640bd41681053e894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_006.prefab using Guid(ecbcd7ccfcfccf640bd41681053e894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9469256082c3613be8e4712ccb1a54') in 0.107838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_10.prefab
+  artifactKey: Guid(32948ffe6cf5a4b4bafd04c2cd2164bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_10.prefab using Guid(32948ffe6cf5a4b4bafd04c2cd2164bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50321e70aae828a745ddcad6c4c7bd16') in 0.152619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_04.prefab
+  artifactKey: Guid(bccf3c47adaffff479013ba81a327998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_04.prefab using Guid(bccf3c47adaffff479013ba81a327998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9141b9982ff5f0de3f73ffb3bd93ff6') in 0.044037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Static_Mesh/Traffic_light/Balisa/Balisa_05.prefab
+  artifactKey: Guid(dc40f5b4bf2489d4f8638845d58fae18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Static_Mesh/Traffic_light/Balisa/Balisa_05.prefab using Guid(dc40f5b4bf2489d4f8638845d58fae18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeb188cc5b6983642a0c4e5661588ab') in 0.079750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.533950 seconds.
+  path: Assets/Plugins/HoudiniEngineUnity/Resources/heu_reloadhdaIcon.png
+  artifactKey: Guid(a64706b650acb204e84fbb7d1143ac14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/HoudiniEngineUnity/Resources/heu_reloadhdaIcon.png using Guid(a64706b650acb204e84fbb7d1143ac14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c961e41fd4950a0ede14ce7b3684058f') in 0.008221 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
